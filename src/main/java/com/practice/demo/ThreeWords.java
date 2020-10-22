@@ -13,6 +13,7 @@ public class ThreeWords {
         }
         return isAllLetters;
     }
+
     public boolean hasThreeWordsConsecutive(String input) {
 
         var splittedInput = input.split(" ");
