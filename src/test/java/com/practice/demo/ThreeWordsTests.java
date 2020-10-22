@@ -27,11 +27,11 @@ public class ThreeWordsTests {
 
     static Stream<Arguments> testParameters() {
         return Stream.of(
-            Arguments.of("Hello World hello", true)//,
-            // Arguments.of("He is 123 man", false),
-            // Arguments.of("1 2 3 4", false),
-            // Arguments.of("bla bla bla bla", true),
-            // Arguments.of("Hi", false)
+            Arguments.of("Hello World hello", true),
+            Arguments.of("He is 123 man", false),
+            Arguments.of("1 2 3 4", false),
+            Arguments.of("bla bla bla bla", true),
+            Arguments.of("Hi", false)
         );
     }
 
