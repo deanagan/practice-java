@@ -51,7 +51,7 @@ dependencies {
 
 // This is for our github actions CI. See kotlin.yml
 tasks.register("practicejava") {
-	dependsOn(":lib:clean", ":lib:build")
+	dependsOn("clean", "build")
     group = "practicejava"
     description = "$ ./gradlew practicejava"
 }
