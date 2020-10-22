@@ -1,4 +1,4 @@
-package com.vscode.demo;
+package com.practice.demo;
 
 public class ThreeWords {
     public boolean hasThreeWordsConsecutive(String input) {
